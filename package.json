@@ -4,6 +4,7 @@
   "description": "freecodecamp tasks",
   "main": "index.js",
   "scripts": {
+    "start": "node ./ffc-basic-algorithm/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ntsgit/js-ffc/issues"
   },
-  "homepage": "https://github.com/ntsgit/js-ffc#readme"
+  "homepage": "https://github.com/ntsgit/js-ffc#readme",
+  "dependencies": {
+    "prettier": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
 }

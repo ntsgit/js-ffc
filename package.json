@@ -1,0 +1,19 @@
+{
+  "name": "js-ffc",
+  "version": "1.0.0",
+  "description": "freecodecamp tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntsgit/js-ffc.git"
+  },
+  "author": "Natasa Ilic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntsgit/js-ffc/issues"
+  },
+  "homepage": "https://github.com/ntsgit/js-ffc#readme"
+}

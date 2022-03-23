@@ -8,6 +8,6 @@ challenge, we would like you to use one of the JavaScript substring methods inst
 
 function confirmEnding(str, target) {
     
-    return str.slice(str.length - target.length) === target;
+    return str.slice(str.length - target.length) === target; //slice from the string substring of a length which is equal to target and compare
   }
   console.log(confirmEnding("Bastian", "tiaxn"));

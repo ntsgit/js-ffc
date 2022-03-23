@@ -16,7 +16,7 @@ function reverseString(str) {
         reverseArr.push(arr[i])
     }
     
-    return reverseArr.join('');
+    return reverseArr.join(''); //convert reversed array into string again and return the value
   }
   
   console.log(reverseString("hello"));

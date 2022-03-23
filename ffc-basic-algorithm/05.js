@@ -6,16 +6,15 @@ Remember, you can iterate through an array with a simple for loop, and access ea
 */
 
 function largestOfFour(arr) {
-    let largestNumArr = [];
+    let largestNumArr = []; //new array which will contain largest elements of each subarray
     
-
-    for (let i=0; i < arr.length; i++) {
-        let max = arr[i][0];
+    for (let i=0; i < arr.length; i++) { //loop through the array
+        let max = arr[i][0]; //set the first element of each subarray to be max element
         
-        for (let j=0; j < arr[i].length; j++) {
+        for (let j=0; j < arr[i].length; j++) { //loop through each subarray and check if there is an element grater than max 
             if (arr[i][j] > max) max = arr[i][j]
         }
-        largestNumArr.push(max);
+        largestNumArr.push(max); //push the largest number found in a subarray in the new array
     }
     return largestNumArr;
   }

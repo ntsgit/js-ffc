@@ -16,7 +16,8 @@ function bouncer(arr) {
 
 console.log(bouncer([7, "ate", "", false, 9]));
 
-//another way
+//another way using filter method
+
 function bouncer2(arr) {
   return arr.filter(Boolean);
 }

@@ -14,9 +14,12 @@ function bouncer(arr) {
   return newArr;
 }
 
-console.log(bouncer2([7, "ate", "", false, 9]));
+console.log(bouncer([7, "ate", "", false, 9]));
 
-//another way
+//another way using filter method
+
 function bouncer2(arr) {
-    return arr.filter(Boolean);
-  }
+  return arr.filter(Boolean);
+}
+
+console.log(bouncer2([7, "ate", "", false, 9]));

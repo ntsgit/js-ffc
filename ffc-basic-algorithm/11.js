@@ -1,4 +1,6 @@
 /*
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/title-case-a-sentence
+
 Title Case a Sentence
 Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
 

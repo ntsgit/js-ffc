@@ -1,4 +1,6 @@
 /*
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/find-the-longest-word-in-a-string
+
 Find the Longest Word in a String
 Return the length of the longest word in the provided sentence.
 

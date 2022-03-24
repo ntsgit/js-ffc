@@ -11,8 +11,8 @@ Return the resulting array. The input arrays should remain the same after the fu
 */
 
 function frankenSplice(arr1, arr2, n) {
-    let newArray = arr2.slice();
-    newArray.splice(n,0,...arr1);
+    let newArray = arr2.slice(); //copy elements of 2nd array into new Array
+    newArray.splice(n,0,...arr1); // splice - add elements from 1st array (...arr1) to n-th index and remove 0 elements
     return newArray;
   }
   

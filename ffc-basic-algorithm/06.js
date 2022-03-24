@@ -1,4 +1,6 @@
 /*
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/confirm-the-ending
+
 Confirm the Ending
 Check if a string (first argument, str) ends with the given target string (second argument, target).
 

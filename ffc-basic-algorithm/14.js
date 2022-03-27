@@ -12,11 +12,11 @@ than 20 (index 2) and greater than 5 (index 1).
 */
 
 function getIndexToIns(arr, num) {
-    arr.sort((a, b) => a - b); // IMPORTANT! when using sort remeber the callback function
-  
-    for (let i = 0; i < arr.length; i++) {
-      if (num <= arr[i]) return i;
-    }
-    return arr.length;
+  arr.sort((a, b) => a - b); // IMPORTANT! when using sort remeber the callback function
+
+  for (let i = 0; i < arr.length; i++) {
+    if (num <= arr[i]) return i;
   }
+  return arr.length;
+}
 console.log(getIndexToIns([10, 20, 30, 40, 50], 35));

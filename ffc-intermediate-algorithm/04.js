@@ -15,6 +15,7 @@ function whatIsInAName(collection, source) {
 
   return collection.filter((item) =>    //filter collection array
     sourceKey.every(                    //check if for every key from source object 
+      // eslint-disable-next-line no-prototype-builtins
       (key) => item.hasOwnProperty(key) && item[key] == source[key]  //element from collection array has that key and the same value as source obj
     )
   );

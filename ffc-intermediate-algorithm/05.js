@@ -6,9 +6,11 @@ Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-da
 */
 
 function spinalCase(str) {
-    return str.split(/(?=[A-Z])/).join("-").toLowerCase().replace("/\W/[^a-z_]", "");
-    //toLowerCase().split(' ').join('-');
-  }
-  
-  const a = spinalCase('The_Andy_Griffith_Show');
-  console.log(a);
+  return str
+    .split(/\s|_|(?=[A-Z])/)
+    .join("-")
+    .toLowerCase();
+}
+
+const a = spinalCase("Teletubbies say Eh-oh");
+console.log(a);

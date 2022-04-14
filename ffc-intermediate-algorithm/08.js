@@ -37,7 +37,7 @@ function pairElement2(str) {
         arr.push(["A", "T"]);
         break;
       case "T":
-        arr.push(["T", "a"]);
+        arr.push(["T", "A"]);
         break;
       case "C":
         arr.push(["C", "G"]);

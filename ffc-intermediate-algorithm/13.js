@@ -17,7 +17,6 @@ function sumPrimes(num) {
 }
 
 function isPrime(no) {
-    //if (no == 2) return true;
     
     for (let i=2; i< no; i++)
         if (no % i === 0) return false
